@@ -1,0 +1,13 @@
+Website: http://archive.ics.uci.edu/dataset/437/residential+building+data+set
+Paper DOI: 10.24432/C5S896
+
+说明：
+
+Residential-Building-Data-Set.xlsx是原始数据集；
+
+Residential-Building-Data-Set-preprocessed.xlsx是预处理之后的数据集；
+
+处理方法是：把所有的特征名称/列索引（前两行）删除；把前4列没用的特征删除，共留下105列，包含103个输入特征，2个预测输出特征；
+
+最终选择第一个输出特征V-9作为预测特征（Actual sales prices）；
+

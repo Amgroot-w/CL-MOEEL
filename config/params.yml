@@ -1,0 +1,18 @@
+# 默认参数设置
+# ================================= 问题 =============================================
+meta_model: 'Linear'  # 子学习机的集成方式（meta模型）：'WeightSum', 'Linear'(默认), 'MLP', 'SVR'
+div_method: 'VarianceSum'  # 分散性指标计算方法：'VarianceSum'(默认), 'NCL1', 'NCL2', 'None'
+fixed_length: 10  # 定长MOEE算法的染色体长度
+solution_length_init_lowerbound: 1  # 初始化解时，解的子学习机个数下界 1
+solution_length_init_upperbound: 20  # 初始化解时，解的子学习机个数上界 20
+solution_length_maximum: 40  # 进化过程中，限制解的子学习机个数最大值 40
+# ================================= 算法 =============================================
+exp_nums: 15  # 重复实验次数
+kfold_n_splits: 5  # k折交叉验证
+pop_size: 50  # 种群大小（v5算法调整为50）
+max_epoch: 300  # 进化次数（v5算法调整为300）
+learning_period: 10  # 学习周期（该参数只有在crossover='adaptive'时才有效）
+selection: 'SlackBTS_v1'  # 选择算子：'Best', 'BTS', 'Random', 'Roulette', 'SlackBTS', 'SlackBTS_v1'(默认), 'SlackBTS_v2'
+crossover: 'random'  # 交叉方法: 'inside', 'outside', 'both', 'random'(默认), 'adaptive'
+environment_select: 'Rank_Density'  # 环境选择策略：'Rank_Density'(默认), 'RMSE_SlackBTS'
+# =====================================================================================
