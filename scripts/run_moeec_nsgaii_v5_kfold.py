@@ -26,7 +26,7 @@ MOEEC-NSGAII-v5算法测试流程
 params = yaml.load(open('config/params.yml', encoding='utf8'), Loader=yaml.FullLoader)
 
 parser = argparse.ArgumentParser('MOEEC_NSGAII_v5 Experiments')
-parser.add_argument('--dataset', type=str, default='',
+parser.add_argument('--dataset', type=str, default='UCI14_ResidentialBuilding',
                     help="Choose dataset: UCI14_ResidentialBuilding or Si_predict")
 parser.add_argument('--pop', type=int, default=params['pop_size'], 
                     help="Population size")

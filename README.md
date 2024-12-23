@@ -64,6 +64,22 @@ Note that the dataset parameter (`--dataset`) should be changed to the name of y
 >
 > + The code will be provided free of charge to researchers in order to support and promote further research. Commercial use of this code is prohibited without prior approval from the authors.
 >
-> + Any documents or papers that report experimental results based on this work, or use this code in their research, must include a proper citation of our paper in the references or acknowledge it in the acknowledgements section. **Cite this article:** *XXX*.
+> + Any documents or papers that report experimental results based on this work, or use this code in their research, should include a proper citation of our paper in the references or acknowledge it in the acknowledgements section.
 >
 > + Some code is inspired by [jMetalPy](https://github.com/jMetal/jMetalPy). A paper introducing jMetalPy is available at: [jMetalPy-Paper](https://doi.org/10.1016/j.swevo.2019.100598).
+
+### Citation
+
+If you use this code in your research, please cite the following paper:
+
+> ```latex
+> @article{xxx,
+> author = {xx},
+> title = {xx},
+> year = {2024},
+> publisher = {xx},
+> url = {xxx},
+> doi = {xxx},
+> journal = {xxx}
+> }
+> ```
