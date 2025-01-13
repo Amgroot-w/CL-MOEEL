@@ -1,6 +1,6 @@
 # Code for CL-MOEEL (IEEE TIM)
 
-This is the code implementation for the paper: [*Silicon Content Prediction in Blast Furnace Ironmaking Process Based on Closed-loop Multiobjective Evolutionary Ensemble Learning*](xxx) (Accepted by *IEEE TIM*). 
+This is the code implementation for the paper: [*Silicon Content Prediction in Blast Furnace Ironmaking Process Based on Closed-loop Multiobjective Evolutionary Ensemble Learning*](xxx) (Accepted by IEEE TIM).
 
 This public GitHub repository contains:
 
@@ -40,7 +40,7 @@ python "scripts/processing_results_kfold.py" --dataset="" --path=""
 
 + `--path`: the result path, e.g., "MOEEC_NSGAII_v5_[year]-[month]-[day]_kfold", where "[year]-[month]-[day]" is the time stamp of the folder. Note that this name will be automatically generated after running the script "run_moeec_nsgaii_v5_kfold.py".
 
-After running the above command, two result files, "results.csv" and "inds.csv" , will be generated in the directory specified by the `--path` parameter. The "results.csv" file contains detailed records of all metrics (e.g.,  RMSE, R$^2$, HR, Runtime) for the five-fold cross-validation across each repeat experiment, including results for each fold. The "inds.csv" file records the average results of the five-fold cross-validation across all repeat experiments.
+After running the above command, two result files, "results.csv" and "inds.csv" , will be generated in the directory specified by the `--path` parameter. The "results.csv" file contains detailed records of all metrics (e.g.,  RMSE, $R^2$, HR, Runtime) for the five-fold cross-validation across each repeat experiment, including results for each fold. The "inds.csv" file records the average results of the five-fold cross-validation across all repeat experiments.
 
 ## Test CL-MOEEL on Your Own Dataset
 
@@ -60,7 +60,7 @@ python "scripts/run_moeec_nsgaii_v5_kfold.py" --dataset=""
 python "scripts/processing_results_kfold.py" --dataset="" --path=""
 ```
 
-Note that the dataset parameter (`--dataset`) should be changed to the name of your defined dataset class, and the algorithm results will be saved in the "models/" directory. After processing the results, the evaluation metrics (RMSE, R$^2$, HR, Runtime) will be computed and saved in "inds.csv" in the same directory.
+Note that the dataset parameter (`--dataset`) should be changed to the name of your defined dataset class, and the algorithm results will be saved in the "models/" directory. After processing the results, the evaluation metrics (RMSE, $R^2$, HR, Runtime) will be computed and saved in "inds.csv" in the same directory.
 
 ### Citation
 
