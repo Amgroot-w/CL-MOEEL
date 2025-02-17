@@ -1,4 +1,6 @@
-# Code for CL-MOEEL (IEEE TIM)
+# CL-MOEEL: Closed-loop Multiobjective Evolutionary Ensemble Learning
+
+![Proposed method](image.png)
 
 This is the code implementation for the paper: [*Silicon Content Prediction in Blast Furnace Ironmaking Process Based on Closed-loop Multiobjective Evolutionary Ensemble Learning*](xxx) (Accepted by IEEE TIM).
 
@@ -10,7 +12,7 @@ This public GitHub repository contains:
 
 + [x] The practical industrial dataset files (Silicon Content Prediction Data Set): `data/Silicon Content Prediction Data Set/Si_predict.xlsx`;
 
-**Note:** Some code is inspired by [jMetalPy](https://github.com/jMetal/jMetalPy). A paper introducing jMetalPy is available at: [jMetalPy: A Python framework for multi-objective optimization with metaheuristics](https://doi.org/10.1016/j.swevo.2019.100598).
+**Note:** Some code is inspired by [jMetalPy](https://github.com/jMetal/jMetalPy). A paper introducing jMetalPy is available at: [*jMetalPy: A Python framework for multi-objective optimization with metaheuristics*](https://doi.org/10.1016/j.swevo.2019.100598).
 
 ## Locations of Modules for the Proposed CL-MOEEL in the Project Files
 
