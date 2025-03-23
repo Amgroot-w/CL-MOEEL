@@ -2,11 +2,7 @@
 
 Paper: https://ieeexplore.ieee.org/document/10925555
 
-Code: coming soon!
-
 ## Citation
-
-If you find our work useful, please cite our paper:
 
 > ```latex
 > @ARTICLE{10925555,
